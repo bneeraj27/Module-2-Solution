@@ -79,7 +79,7 @@ p{
         padding: 1px;
     }
     .col-sm-12 .box{
-        overflow: auto;
+        overflow-x:auto;
     }
     .col-sm-12 p{
         overflow: auto;
