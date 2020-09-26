@@ -4,6 +4,9 @@
 h1{
     text-align: center;
 }
+section{
+    overflow: auto;
+}
 p{
     border: 10px solid #b2beb5;
     background-color: #b2beb5;  
@@ -22,13 +25,13 @@ p{
         float: left;
         background-color: #b2beb5;
         border:3px solid black;
-        width: 25%;
-        margin: 3%;
+        width: 27%;
+        margin:3%;
     }
     span{
         border:1px solid black;
         position: relative;
-        left: 70%;
+        left: 75%;
         background-color: red;
         padding: 1px;
     }
@@ -71,8 +74,14 @@ p{
     .box span{
         border:1px solid black;
         position: relative;
-        left: 75%;
+        left: 70%;
         background-color: red;
         padding: 1px;
+    }
+    .col-sm-12 .box{
+        overflow: auto;
+    }
+    .col-sm-12 p{
+        overflow: auto;
     }
 }
